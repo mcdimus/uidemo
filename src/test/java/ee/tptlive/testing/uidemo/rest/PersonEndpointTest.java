@@ -10,10 +10,10 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.List;
 
-import static com.sun.deploy.config.JREInfo.getAll;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
